@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import logo from './logo.svg';
 import './App.css';
 import FeatureBook from './feature_book';
+import Searchbar from './search_bar';
+
 
 
 // Google Books API
@@ -17,9 +20,14 @@ class App extends Component {
     }
   }
 
+  searchBooks(term) {
+
+  }
+
   render() {
     return (
       <div className="App">
+        <Searchbar />
         <FeatureBook />
       </div>
     );

@@ -4,7 +4,7 @@ export default class FeatureBook extends Component {
 
 	render() {
 		return (
-			<div>This is the feature book.</div>
+			<div className="feature-wrapper">This is the feature book.</div>
 		);
 
 	}
